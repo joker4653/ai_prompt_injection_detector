@@ -17,5 +17,5 @@ class LLMWrapper:
         # anthropic Response is a JSON Object with metadata
         anthropicRes = await self.anthropicWrapper.analyse_prompts(prompt)
         
-
+        # TODO clean and standardise both responses before returning
         return {"openAI": openAIRes, "anthropic": anthropicRes}
