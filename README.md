@@ -2,7 +2,11 @@
 
 This repo contains a basic wrapper and evaluation engine that orchestrates analysis between Anthropic's Claude (Engine xx) and OpenAI's GPT (Engine xx). Both LLMs will return an evaluation from 0-10 on the probability of a phrase or set of words being capable of prompt injection on an LLM.
 
-# Quickstart (dev)
+# Note
+
+This was a quick project to get back into semantics of programming and API usage. Alot of the coding in this repo is largely obsolete.
+
+# Quickstart
 
 1. Clone repo to your local instance.
 2. Copy '.env.example' to your local '.env' file and insert API keys.
